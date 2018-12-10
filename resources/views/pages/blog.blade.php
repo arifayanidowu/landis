@@ -27,15 +27,15 @@
              <aside class="col-md-4">
                  <div class=" box_style_1">
                         <div class="widget" style="margin-top:15px;">
-                            <div class="input-group">
                                 <form action="#" method="POST">
+                                <div class="input-group">
                                     @csrf
                                     <input type="text" class="form-control" placeholder="Search...">
                                     <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button" style="margin-left:0;"><i class="icon-search"></i></button>
+                                        <button class="btn btn-default" type="button" style="margin-left:0;"><i class="icon-search"></i></button>
                                     </span>
+                                </div><!-- /input-group -->
                                 </form>
-                            </div><!-- /input-group -->
                         </div><!-- End Search -->
                         <div class="widget">
                             <h4>Text widget</h4>

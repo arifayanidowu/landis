@@ -246,6 +246,15 @@ h1 {
     background: #0cbdab93;
 }
 
+.seacrh-container{
+    position: relative;
+}
+
+button.btn-search{
+    width: 5px;
+    height: 5px;
+}
+
 .question_box h3 {
     font-size: 18px;
     text-align: left;
