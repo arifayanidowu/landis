@@ -35,7 +35,6 @@
                             	<li><a href="/about">About us</a></li>
 								<li><a href="/teachers">Teachers</a></li>
                                 <li><a href="/teacher/profile">Teacher profile</a></li>
-                                <li><a href="/member/profile">Member profile</a></li>
                                 <li><a href="/blog">Blog</a></li>
                                 <li><a href="/events">News &amp; Events</a></li>
                             </ul>
@@ -72,7 +71,7 @@
                 @auth
                     <li class="normal_drop_down">
                         <a>
-                          <i class="fas fa-user mr-2"></i> {{ Auth::user()->name }}
+                            <i class="fas fa-user-circle mr-3"></i> {{ Auth::user()->name }}
                         </a>
                     <div class="mobnav-subarrow"></div>
 
@@ -82,6 +81,7 @@
                             onclick="event.preventDefault();
                                     document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
+                                <i class="fas fa-sign-out-alt pull-right"></i>
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

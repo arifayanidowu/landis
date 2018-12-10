@@ -275,7 +275,7 @@ ul.latest_news h5 {
     padding: 0;
 }
 footer {
-    background: url(../img/icon/logo_footer.png) center 60px no-repeat #1c1c1c;
+    background: url(../favicons/favicon-96x96.png) center 60px no-repeat #1c1c1c;
     color: #fff;
     width: 100%;
     padding-top: 150px;
@@ -2390,10 +2390,11 @@ img.speaker {
 #toTop {
     width: 50px;
     height: 50px;
+    border: 3px solid #fff;
     border-radius: 50%;
-    border: 1px solid #ccc;
-    background: #f7f7f7;
-    box-shadow: 0px 1.8px 1px rgb(138, 135, 135);
+    /* background: #d3d2d2; */
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
     transition: background 0.3s;
     text-align: center;
     padding: 5px;
@@ -2402,15 +2403,35 @@ img.speaker {
     right: 10px;
     cursor: pointer;
     display: flex;
-    color: #333;
     font-size: 11px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    transition: all 0.3s ease;
 }
 
-#toTop:hover {
-    box-shadow: 0px 1px 1px rgb(138, 135, 135);
+
+#toTop:hover{
+    transform: translateY(0);
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 .img-circle.styled {

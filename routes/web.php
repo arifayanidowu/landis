@@ -19,3 +19,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::view('/blog', 'pages.blog');
 Route::view('/about', 'pages.about');
+Route::view('/contact', 'pages.contact');
+Route::view('/teachers', 'pages.teachers.teachers');
+Route::view('/teacher/profile', 'pages.teachers.profile');
+Route::view('/gallery', 'pages.gallery');
