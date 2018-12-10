@@ -16,10 +16,11 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-                style="z-index: 2"><img src="/img/logo/logo.png" alt="Logo">
+                style="z-index: 2">
+                        <img src="/img/icon/logo.png" alt="Logo">
 					</div>
                     <!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromleft customout"
 						data-x="left"
 						data-y="190"
                         data-hoffset="30"
@@ -31,9 +32,9 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 6">PHP Working Subscription
-					</div>
+					</div> --}}
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromleft customout"
 						data-x="left"
 						data-y="245"
                         data-hoffset="30"
@@ -45,9 +46,9 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 6">PHP Working wizard
-					</div>
+					</div> --}}
                     <!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromleft customout"
 						data-x="left"
 						data-y="300"
                         data-hoffset="30"
@@ -59,9 +60,9 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 6">PHP Working newsletter
-					</div>
+					</div> --}}
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_bg_darkblue skewfromright customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromright customout"
 						data-x="right"
 						data-y="190"
                         data-hoffset="-30"
@@ -73,9 +74,9 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8">Four Home pages
-					</div>
+					</div> --}}
 					<!-- LAYER NR. 5 -->
-					<div class="tp-caption medium_bg_darkblue skewfromright customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromright customout"
 						data-x="right"
 						data-y="245"
                         data-hoffset="-30"
@@ -87,9 +88,9 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8">Course timeline
-					</div>
+					</div> --}}
                     <!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_bg_darkblue skewfromleft customout"
+					{{-- <div class="tp-caption medium_bg_darkblue skewfromleft customout"
 						data-x="right"
 						data-y="300"
                         data-hoffset="-30"
@@ -101,7 +102,7 @@
 						data-endeasing="Power1.easeIn"
 						data-captionhidden="on"
 						style="z-index: 6">20 HTML pages
-					</div>
+					</div> --}}
 				</li>
                 <!-- SLIDE  -->
 				<li data-transition="zoomout" data-slotamount="4" data-masterspeed="1000" >

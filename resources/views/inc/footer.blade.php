@@ -37,8 +37,10 @@
 			<ul>
 				<li><a href="/about">About Us</a></li>
 				<li><a href="/apply">Apply</a></li>
-				<li><a href="#">Terms and conditions</a></li>
-				<li><a href="/register">Register</a></li>
+                <li><a href="#">Terms and conditions</a></li>
+                @guest
+				    <li><a href="/register">Register</a></li>
+                @endguest
 			</ul>
 		</div><!-- End col-md-4 -->
 		<div class="col-md-3 col-sm-3">

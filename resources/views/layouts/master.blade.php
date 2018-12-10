@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   	<meta charset="utf-8">
-    <title>LANDIS Training, Education and Web Technologies | @yield('title')</title>
+    <title>LANDIS &mdash; Training, Education and Web Technologies | @yield('title')</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Landis, School for web development and Training">
     <meta name="keywords" content="Landis,Training,Web Development,School">

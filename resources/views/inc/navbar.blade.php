@@ -33,7 +33,7 @@
                     	<h5>Communicate</h5>
                             <ul class="mega_submenu">
                             	<li><a href="/about">About us</a></li>
-								<li><a href="/teacher">Teachers</a></li>
+								<li><a href="/teachers">Teachers</a></li>
                                 <li><a href="/teacher/profile">Teacher profile</a></li>
                                 <li><a href="/member/profile">Member profile</a></li>
                                 <li><a href="/blog">Blog</a></li>
@@ -45,13 +45,16 @@
                           <ul class="mega_submenu">
                                 @guest
                                   <li>
-                                    <a href="/login">Login</a>  
+                                    <a href="/login">Login</a>
                                   </li>
                                   @if (Route::has('register'))
-                                    <li><a href="{{route('register')}}">Register</a></li>  
+                                    <li><a href="{{route('register')}}">Register</a></li>
                                   @endif
                                 @endguest
                               <li><a href="/gallery">Photo &amp; video gallery <img src="{{ asset('img/icon/new.png') }}" alt=""></a></li>
+                              <li>
+                                <a href="/apply" id="apply">Apply now</a>
+                              </li>
                           </ul>
                     </div>
                     <div class="col-md-4 col-sm-6">
@@ -69,7 +72,7 @@
                 @auth
                     <li class="normal_drop_down">
                         <a>
-                            {{ Auth::user()->name }}
+                          <i class="fas fa-user mr-2"></i> {{ Auth::user()->name }}
                         </a>
                     <div class="mobnav-subarrow"></div>
 
@@ -80,7 +83,7 @@
                                     document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
-                            
+
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
