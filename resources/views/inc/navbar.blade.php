@@ -29,7 +29,7 @@
 				<a href="#">Pages (Megamenu)</a>
                 <div class="mobnav-subarrow"></div>
                 <div class="sf-mega">
-                	<div class="col-md-4 col-sm-6">
+                	<div class="col-md-6 col-sm-6">
                     	<h5>Communicate</h5>
                             <ul class="mega_submenu">
                             	<li><a href="/about">About us</a></li>
@@ -39,7 +39,7 @@
                                 <li><a href="/events">News &amp; Events</a></li>
                             </ul>
                     </div>
-                  <div class="col-md-4 col-sm-6">
+                  <div class="col-md-6 col-sm-6">
                    <h5>Other pages</h5>
                           <ul class="mega_submenu">
                                 @guest
@@ -56,7 +56,7 @@
                               </li>
                           </ul>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    {{-- <div class="col-md-4 col-sm-6">
                     <h5>Submenu with icons</h5>
                             <ul class="mega_submenu icons">
                             	<li><a href="#"> Downloads<i class="icon-download"></i></a></li>
@@ -64,7 +64,7 @@
                                 <li><a href="#">Audio files <i class="icon-mic"></i></a></li>
                                 <li><a href="#">Members <i class="icon-user"></i></a></li>
                             </ul>
-                    </div>
+                    </div> --}}
                 </div>
                 </li>
                 <li><a href="/contact">Contacts</a></li>

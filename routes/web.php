@@ -23,3 +23,4 @@ Route::view('/contact', 'pages.contact');
 Route::view('/teachers', 'pages.teachers.teachers');
 Route::view('/teacher/profile', 'pages.teachers.profile');
 Route::view('/gallery', 'pages.gallery');
+Route::view('/apply', 'pages.apply');

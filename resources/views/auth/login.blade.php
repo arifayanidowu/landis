@@ -11,7 +11,7 @@
 	<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
 		<div id="login">
 			<p class="text-center">
-            <img src="{{ asset('img/logo/login_logo.png') }}" alt="Login Logo">
+            <img src="{{ asset('img/icon/logo.png') }}" alt="Login Logo" class="login__image">
 			</p>
 			<hr>
             <form method="POST" action="{{ route('login') }}">

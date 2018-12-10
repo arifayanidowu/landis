@@ -241,6 +241,11 @@ h1 {
     font-size: 18px;
     font-weight: 700;
 }
+
+.login__image{
+    background: #0cbdab93;
+}
+
 .question_box h3 {
     font-size: 18px;
     text-align: left;
