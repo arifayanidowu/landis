@@ -3,7 +3,7 @@
 			<ul class="sliderwrapper"><!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="4" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
-                <img src="/img/slide_5.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img class="hero-img" src="{{asset('img/slide_5.jpg')}}" alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption skewfromrightshort customout"
@@ -17,7 +17,7 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
                 style="z-index: 2">
-                        <img src="/img/icon/logo.png" alt="Logo">
+                    <img src="{{asset('img/icon/logo.png')}}" alt="Logo">
 					</div>
                     <!-- LAYER NR. 2 -->
 					{{-- <div class="tp-caption medium_bg_darkblue skewfromleft customout"
@@ -107,7 +107,7 @@
                 <!-- SLIDE  -->
 				<li data-transition="zoomout" data-slotamount="4" data-masterspeed="1000" >
 					<!-- MAIN IMAGE -->
-                <img src="/img/slide_6.jpg" alt="slidebg2"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img class="hero-img" src="{{asset('img/slide_6.jpg')}}" alt="slidebg2"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption medium_light_white skewfromrightshort customout"
@@ -166,7 +166,7 @@
                 <!-- SLIDE  -->
 				<li data-transition="cube-horizontal" data-slotamount="4" data-masterspeed="1000" >
 					<!-- MAIN IMAGE -->
-                <img src="{{ asset('img/slide_1.jpg') }}" alt="slidebg3"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                <img class="hero-img" src="{{ asset('img/slide_1.jpg') }}" alt="slidebg3"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
 					<div class="tp-caption medium_light_white skewfromrightshort customout"
@@ -225,7 +225,7 @@
                  <!-- SLIDE  -->
 				<li data-transition="zoomin" data-slotamount="4" data-masterspeed="1000" >
 					<!-- MAIN IMAGE -->
-				<img src="/img/slide_7.jpg" alt="slidebg4"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+				<img class="hero-img" src="/img/slide_7.jpg" alt="slidebg4"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 10 -->
 					<div class="tp-caption large_bold_white customin customout"

@@ -61,6 +61,10 @@ nav {
     color: #fff;
 }
 
+.text__grey {
+    color: #000;
+}
+
 a#logo {
     width: 150px;
     height: 36px;
@@ -242,11 +246,9 @@ h1 {
     font-weight: 700;
 }
 
-.login__image{
+.login__image {
     background: #0cbdab93;
 }
-
-
 
 .question_box h3 {
     font-size: 18px;
@@ -2254,6 +2256,12 @@ body#boxed {
 ul.sliderwrapper {
     display: none;
 }
+
+img.hero-img {
+    width: 100%;
+    max-width: 100vw;
+    max-height: 100%;
+}
 .picture {
     margin-bottom: 20px;
     position: relative;
@@ -2419,8 +2427,7 @@ img.speaker {
     transition: all 0.3s ease;
 }
 
-
-#toTop:hover{
+#toTop:hover {
     transform: translateY(0);
 }
 

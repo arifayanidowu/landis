@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class=" col-md-10 col-md-offset-1 text-center">
-                <h2>Why Join Learn</h2>
+                <h2>Why Join Landis</h2>
                 <p class="lead">
                     Lorem ipsum dolor sit amet, ius minim gubergren ad. <br>
                     At mei sumo sonet audiam, ad mutat elitr platonem vix. Ne nisl idque fierent vix. Ferri clitaponderum ne.
@@ -219,7 +219,7 @@
                    <div class="circ-wrapper pull-left"><h3>15<br>July</h3></div>
                       <div class="media-body">
                         <h4 class="media-heading"><a href="javascript:void(0)">CSS3 Workshop</a> <span class="label label-warning">NEW</span></h4>
-                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                         <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
                          <ul class="data-lessons">
                               <li class="po-markup">
                                     <a class="po-link" href="javascript:void(0)" ><i class="icon-clock"></i>Duration: 6 hours</a>
@@ -319,7 +319,7 @@
                                         </div><!-- ./po-body -->
                                     </div><!-- ./po-content -->
                                     </li>
-                          </ul> 
+                          </ul>
                       </div>
                     </div>
             </div>
@@ -329,17 +329,17 @@
           	<div class="col-md-3 col-sm-6">
 				<h4>Our team</h4>
                 <p><img src="{{asset('img/pic_1.jpg')}}" alt="Pic" class="img-responsive"></p>
-                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
             </div>
             <div class="col-md-3 col-sm-6">
 				<h4>Equiped classrooms</h4>
                 <p><img src="{{asset('img/pic_2.jpg')}}" alt="Pic" class="img-responsive"></p>
-                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
             </div>
             <div class="col-md-3 col-sm-6">
 				<h4>Enjoy classroom mates</h4>
                 <p><img src="{{asset('img/pic_3.jpg')}}" alt="Pic" class="img-responsive"></p>
-                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p> 
+                <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.</p>
             </div>
             <div class="col-md-3 col-sm-6">
 				<h4>Links</h4>
